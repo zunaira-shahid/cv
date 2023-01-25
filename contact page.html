@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lets get in Contact</title>
+    <body>
+      <h1>My Contact Details</h1>
+      <p>My Address:ABCDE</p>
+      <p>My Phone Number:0123456789</p>
+      <p>My Email Adress:abcde@gmail.com</p>
+      <form
+        action="mailto:info@zunairashahid530@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="name">Name: <input type="text" /></label>
+        <br />
+        <label for="email">Email:</label> <input type="email" />
+        <br />
+        <label>Enter your birthday: <input type="date" name="bday" /></label>
+        <br />
+        <label for="avatar">Choose a profile picture:</label>
+        <input type="file" name="avatar" accept="image/png" />
+        <br />
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Send" />
+      </form>
+    </body>
+  </head>
+</html>
